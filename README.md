@@ -29,22 +29,25 @@ Membuat struktur dasar dokumen HTML yang mencakup tag `header`, `nav`, dan `div`
 ### 2. Menambahkan CSS Internal
 Menambahkan tag `<style>` di dalam bagian `<head>` dokumen HTML untuk mengatur gaya elemen dasar seperti *font-family*, *header*, dan tag `h1`.
 * **Hasil Tampilan:**
-  ![Tampilan CSS Internal](./langkah2.png)
+  ![Tampilan CSS Internal](./<img width="958" height="469" alt="langkah2" src="https://github.com/user-attachments/assets/4aec4856-2fcc-4d8a-9c4f-a7ae50e9523d" />
+)
 
 ### 3. Menambahkan Inline CSS
 Menambahkan atribut `style` secara langsung pada tag paragraf `<p>` untuk mengatur perataan teks dan warna font.
 * **Hasil Tampilan:**
-  ![Tampilan Inline CSS](./langkah3.png)
+  ![Tampilan Inline CSS](./<img width="958" height="469" alt="langkah3" src="https://github.com/user-attachments/assets/c5f62291-8fa6-4208-8356-920041186e64" />
+)
 
 ### 4. Membuat CSS Eksternal (`style_eksternal.css`)
 Membuat file CSS terpisah untuk mengatur tampilan menu navigasi (`nav`), warna latar belakang hijau, serta efek *hover*.
 * **Hasil Tampilan:**
-  ![Tampilan Eksternal CSS](./langkah4.png)
+  ![Tampilan Eksternal CSS](./<img width="958" height="467" alt="langkah4" src="https://github.com/user-attachments/assets/2d9c6b4c-661e-4d42-9baa-64601ca8082a" />)
 
 ### 5. Menambahkan CSS Selector (ID & Class Selector)
 Menggunakan **ID Selector (`#intro`)** untuk kotak pengantar dan **Class Selector (`.button`, `.btn-primary`)** untuk tombol interaktif.
 * **Hasil Tampilan:**
-  ![Tampilan Selesai Selector](./langkah5.png)
+  ![Tampilan Selesai Selector](./<img width="959" height="470" alt="langkah5" src="https://github.com/user-attachments/assets/06f4d466-5f53-429c-9f04-378a03becbc3" />
+)
 
 ---
 
