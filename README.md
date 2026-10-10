@@ -94,25 +94,21 @@ Jawaban:
 
 Jawaban:
 
-**Deklarasi yang ditampilkan**: Inline CSS.
+* **Deklarasi yang ditampilkan:** Inline CSS.
+  
+* **Penjelasan:** Aturan CSS bersifat bertingkat (*cascading*). Gaya yang ditulis langsung pada atribut `style` di dalam elemen HTML memiliki tingkat prioritas tertinggi, sehingga mengalahkan CSS internal dan eksternal.
+  
+* **Contoh:** 
+  Jika pada CSS eksternal ditulis `p { color: blue; }` dan CSS internal `p { color: green; }`, tetapi pada tag HTML ditulis `<p style="color: red;">Teks</p>`, maka teks yang muncul di browser akan berwarna **merah**.
 
-**Penjelasan**: CSS bekerja secara bertingkat (cascading). Deklarasi gaya yang dituliskan langsung pada atribut style di dalam elemen HTML (inline CSS) memiliki tingkat prioritas teratas (highest priority) dibandingkan CSS internal maupun eksternal.
+---
 
-**Contoh**: Jika pada file CSS eksternal dideklarasikan p { color: blue; } dan internal CSS p { color: green; }, namun pada tag HTML dituliskan <p style="color: red;">Teks Contoh</p>, maka teks yang muncul di browser akan berwarna merah.
+**4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (`<p id="paragraf-1" class="text-paragraf">`)**
 
-**4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (<p id="paragraf-1" class="text-paragraf">)**
-
-Jawaban:
-
-**Deklarasi yang ditampilkan**: Deklarasi dari ID Selector (#paragraf-1).
-
-**Penjelasan**: Berdasarkan aturan hirarki spesifisitas (specificity) CSS, ID Selector memiliki bobot nilai/spesifisitas lebih tinggi daripada Class Selector, sehingga aturan gaya pada ID akan menang dan menimpa aturan gaya pada Class.
-
-**Contoh**:
-Misalkan pada file CSS terdapat aturan berikut:
-
-CSS
-#paragraf-1 { color: red; }
-.text-paragraf { color: green; }
-
-Maka elemen <p id="paragraf-1" class="text-paragraf"> akan menampilkan teks berwarna merah karena ID Selector (#paragraf-1) diprioritaskan oleh browser.
+**Jawaban:**
+* **Deklarasi yang ditampilkan:** Deklarasi dari **ID Selector (`#paragraf-1`)**.
+  
+* **Penjelasan:** Berdasarkan aturan spesifisitas CSS, ID Selector memiliki bobot nilai yang lebih tinggi dibandingkan Class Selector, sehingga aturan pada ID akan menimpa aturan pada Class.
+  
+* **Contoh:**
+  Jika di dalam CSS terdapat aturan `#paragraf-1 { color: red; }` dan `.text-paragraf { color: green; }`, maka elemen `<p id="paragraf-1" class="text-paragraf">` akan menampilkan teks berwarna **merah**.
