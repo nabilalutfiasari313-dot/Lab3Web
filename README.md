@@ -4,14 +4,14 @@ Repositori ini dibuat untuk memenuhi tugas praktikum mata kuliah **Pemrograman W
 
 ---
 
-## 👨‍💻 Identitas Mahasiswa
+## Identitas Mahasiswa
 * **Nama:** Nabila Lutfia Sari
-* **NIM:** *312510040*
+* **NIM:** 312510040
 * **Kelas / Program Studi:** Teknik Informatika - Universitas Pelita Bangsa
 
 ---
 
-## 📋 Tujuan Praktikum
+## Tujuan Praktikum
 1. Mahasiswa mampu memahami konsep dasar CSS.
 2. Mahasiswa mampu memahami aturan penulisan pada CSS (Internal, Eksternal, dan Inline).
 3. Mahasiswa mampu memahami selector sebagai pengontrol CSS (Element, ID, dan Class Selector).
@@ -51,7 +51,7 @@ Menggunakan **ID Selector (`#intro`)** untuk kotak pengantar dan **Class Selecto
 
 ---
 
-## 📂 Struktur File Repositori
+## Struktur File Repositori
 ```text
 Lab3Web/
 │
@@ -65,7 +65,8 @@ Lab3Web/
 └── README.md                 # Laporan praktikum
 
 ---
-Jawaban Pertanyaan dan Tugas (Modul Praktikum CSS Dasar)
+
+## Jawaban Pertanyaan dan Tugas (Modul Praktikum CSS Dasar)
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
 Jawaban:
 
