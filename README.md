@@ -78,8 +78,7 @@ Lab3Web/
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
 Jawaban:
 
-Eksperimen telah dilakukan pada file stylesheet dengan menambahkan serta mengubah beberapa atribut CSS (seperti warna latar belakang, batas elemen, ukuran teks, dan warna hover pada menu navigasi). Hasil penerapan perubahan atribut CSS tersebut dapat dilihat pada screenshot tampilan web pada Langkah 5 (Gambar 6: CSS ID dan Class Selector).<img width="959" height="470" alt="langkah5" src="https://github.com/user-attachments/assets/64b0c691-9265-444c-974e-3b66a790e17b" />
-
+Eksperimen telah dilakukan pada file stylesheet dengan menambahkan serta mengubah beberapa atribut CSS (seperti warna latar belakang, batas elemen, ukuran teks, dan warna hover pada menu navigasi). Hasil penerapan perubahan atribut CSS tersebut dapat dilihat pada screenshot tampilan web pada Langkah 5 (Gambar 6: CSS ID dan Class Selector).
 
 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
 Jawaban:
