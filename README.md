@@ -49,11 +49,17 @@ Menggunakan **ID Selector (`#intro`)** untuk kotak pengantar dan **Class Selecto
   ![Tampilan Selesai Selector](./<img width="959" height="470" alt="langkah5" src="https://github.com/user-attachments/assets/06f4d466-5f53-429c-9f04-378a03becbc3" />
 )
 
+## Validasi CSS (W3C Validator)
+Kode CSS pada file `style_eksternal.css` telah diuji melalui W3C CSS Validation Service dan dinyatakan valid tanpa error (*No Error Found*).
+* **Bukti Validasi:**
+  ![Validasi W3C CSS](./<img width="955" height="457" alt="Screenshot 2026-10-10 185728" src="https://github.com/user-attachments/assets/b3d9fcd9-5908-4c27-8b57-342cd386b422" />)
+
 ---
 
 ## Struktur File Repositori
 ```text
 Lab3Web/
+
 │
 ├── lab2_css_dasar.html       # File utama dokumen HTML
 ├── style_eksternal.css       # File stylesheet terpisah
@@ -66,7 +72,8 @@ Lab3Web/
 
 ---
 
-## Jawaban Pertanyaan dan Tugas (Modul Praktikum CSS Dasar)
+## Jawaban Pertanyaan & Tugas
+
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
 Jawaban:
 
