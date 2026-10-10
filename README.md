@@ -86,9 +86,9 @@ Eksperimen telah dilakukan pada file stylesheet dengan menambahkan serta menguba
 
 Jawaban:
 
-**h1 {...} (Element Selector)**: Berlaku secara global untuk semua elemen tag h1 yang ada di dalam dokumen HTML tanpa memandang lokasinya.
+* **h1 {...} (Element Selector)**: Berlaku secara global untuk semua elemen tag h1 yang ada di dalam dokumen HTML tanpa memandang lokasinya.
 
-**#intro h1 {...} (Descendant / Contextual Selector)**: Hanya berlaku khusus untuk elemen h1 yang berada di dalam elemen utama dengan id="intro". Elemen h1 lainnya di luar elemen #intro tidak akan terkena gaya tersebut.
+* **#intro h1 {...} (Descendant / Contextual Selector)**: Hanya berlaku khusus untuk elemen h1 yang berada di dalam elemen utama dengan id="intro". Elemen h1 lainnya di luar elemen #intro tidak akan terkena gaya tersebut.
 
 **3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!**
 
