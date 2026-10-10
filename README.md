@@ -63,3 +63,43 @@ Lab3Web/
 ├── langkah4.png              # Screenshot langkah 4
 ├── langkah5.png              # Screenshot langkah 5
 └── README.md                 # Laporan praktikum
+
+---
+Jawaban Pertanyaan dan Tugas (Modul Praktikum CSS Dasar)
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+Jawaban:
+
+Eksperimen telah dilakukan pada file stylesheet dengan menambahkan serta mengubah beberapa atribut CSS (seperti warna latar belakang, batas elemen, ukuran teks, dan warna hover pada menu navigasi). Hasil penerapan perubahan atribut CSS tersebut dapat dilihat pada screenshot tampilan web pada Langkah 5 (Gambar 6: CSS ID dan Class Selector).<img width="959" height="470" alt="langkah5" src="https://github.com/user-attachments/assets/64b0c691-9265-444c-974e-3b66a790e17b" />
+
+
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+Jawaban:
+
+h1 {...} (Element Selector): Berlaku secara global untuk semua elemen tag h1 yang ada di dalam dokumen HTML tanpa memandang lokasinya.
+
+#intro h1 {...} (Descendant / Contextual Selector): Hanya berlaku khusus untuk elemen h1 yang berada di dalam elemen utama dengan id="intro". Elemen h1 lainnya di luar elemen #intro tidak akan terkena gaya tersebut.
+
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+Jawaban:
+
+Deklarasi yang ditampilkan: Inline CSS.
+
+Penjelasan: CSS bekerja secara bertingkat (cascading). Deklarasi gaya yang dituliskan langsung pada atribut style di dalam elemen HTML (inline CSS) memiliki tingkat prioritas teratas (highest priority) dibandingkan CSS internal maupun eksternal.
+
+Contoh:
+Jika pada file CSS eksternal dideklarasikan p { color: blue; } dan internal CSS p { color: green; }, namun pada tag HTML dituliskan <p style="color: red;">Teks Contoh</p>, maka teks yang muncul di browser akan berwarna merah.
+
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (<p id="paragraf-1" class="text-paragraf">)
+Jawaban:
+
+Deklarasi yang ditampilkan: Deklarasi dari ID Selector (#paragraf-1).
+
+Penjelasan: Berdasarkan aturan hirarki spesifisitas (specificity) CSS, ID Selector memiliki bobot nilai/spesifisitas lebih tinggi daripada Class Selector, sehingga aturan gaya pada ID akan menang dan menimpa aturan gaya pada Class.
+
+Contoh:
+Misalkan pada file CSS terdapat aturan berikut:
+
+CSS
+#paragraf-1 { color: red; }
+.text-paragraf { color: green; }
+Maka elemen <p id="paragraf-1" class="text-paragraf"> akan menampilkan teks berwarna merah karena ID Selector (#paragraf-1) diprioritaskan oleh browser.
