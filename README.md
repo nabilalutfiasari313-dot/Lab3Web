@@ -24,7 +24,7 @@ Repositori ini dibuat untuk memenuhi tugas praktikum mata kuliah **Pemrograman W
 ### 1. Membuat Dokumen HTML (`lab2_css_dasar.html`)
 Membuat struktur dasar dokumen HTML yang mencakup tag `header`, `nav`, dan `div` dengan ID tertentu.
 * **Hasil Tampilan:**
-  ![Tampilan HTML Dasar](./langkah1.png)
+  ![Tampilan HTML Dasar](./<img width="959" height="478" alt="langkah1" src="https://github.com/user-attachments/assets/ca092590-1214-440e-8cea-12e774f68299" />)
 
 ### 2. Menambahkan CSS Internal
 Menambahkan tag `<style>` di dalam bagian `<head>` dokumen HTML untuk mengatur gaya elemen dasar seperti *font-family*, *header*, dan tag `h1`.
