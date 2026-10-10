@@ -81,6 +81,7 @@ Lab3Web/
 Jawaban:
 
 Eksperimen telah dilakukan pada file stylesheet dengan menambahkan serta mengubah beberapa atribut CSS (seperti warna latar belakang, batas elemen, ukuran teks, dan warna hover pada menu navigasi). Hasil penerapan perubahan atribut CSS tersebut dapat dilihat pada screenshot tampilan web pada Langkah 5 (Gambar 6: CSS ID dan Class Selector).
+<img width="959" height="470" alt="langkah5" src="https://github.com/user-attachments/assets/eb73c3a7-12fa-4258-83fb-c19d0b998f8c" />
 
 **2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!**
 
@@ -101,7 +102,6 @@ Jawaban:
 * **Contoh:** 
   Jika pada CSS eksternal ditulis `p { color: blue; }` dan CSS internal `p { color: green; }`, tetapi pada tag HTML ditulis `<p style="color: red;">Teks</p>`, maka teks yang muncul di browser akan berwarna **merah**.
 
----
 
 **4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (`<p id="paragraf-1" class="text-paragraf">`)**
 
