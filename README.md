@@ -24,35 +24,35 @@ Repositori ini dibuat untuk memenuhi tugas praktikum mata kuliah **Pemrograman W
 ### 1. Membuat Dokumen HTML (`lab2_css_dasar.html`)
 Membuat struktur dasar dokumen HTML yang mencakup tag `header`, `nav`, dan `div` dengan ID tertentu.
 * **Hasil Tampilan:**
-  ![Tampilan HTML Dasar](<img width="959" height="478" alt="langkah1" src="https://github.com/user-attachments/assets/ca092590-1214-440e-8cea-12e774f68299" />)
+  ![Tampilan HTML Dasar](./<img width="959" height="478" alt="langkah1" src="https://github.com/user-attachments/assets/ca092590-1214-440e-8cea-12e774f68299" />)
 
 ### 2. Menambahkan CSS Internal
 Menambahkan tag `<style>` di dalam bagian `<head>` dokumen HTML untuk mengatur gaya elemen dasar seperti *font-family*, *header*, dan tag `h1`.
 * **Hasil Tampilan:**
-  ![Tampilan CSS Internal](<img width="958" height="469" alt="langkah2" src="https://github.com/user-attachments/assets/4aec4856-2fcc-4d8a-9c4f-a7ae50e9523d" />
+  ![Tampilan CSS Internal](./<img width="958" height="469" alt="langkah2" src="https://github.com/user-attachments/assets/4aec4856-2fcc-4d8a-9c4f-a7ae50e9523d" />
 )
 
 ### 3. Menambahkan Inline CSS
 Menambahkan atribut `style` secara langsung pada tag paragraf `<p>` untuk mengatur perataan teks dan warna font.
 * **Hasil Tampilan:**
-  ![Tampilan Inline CSS](<img width="958" height="469" alt="langkah3" src="https://github.com/user-attachments/assets/c5f62291-8fa6-4208-8356-920041186e64" />
+  ![Tampilan Inline CSS](./<img width="958" height="469" alt="langkah3" src="https://github.com/user-attachments/assets/c5f62291-8fa6-4208-8356-920041186e64" />
 )
 
 ### 4. Membuat CSS Eksternal (`style_eksternal.css`)
 Membuat file CSS terpisah untuk mengatur tampilan menu navigasi (`nav`), warna latar belakang hijau, serta efek *hover*.
 * **Hasil Tampilan:**
-  ![Tampilan Eksternal CSS](<img width="958" height="467" alt="langkah4" src="https://github.com/user-attachments/assets/2d9c6b4c-661e-4d42-9baa-64601ca8082a" />)
+  ![Tampilan Eksternal CSS](./<img width="958" height="467" alt="langkah4" src="https://github.com/user-attachments/assets/2d9c6b4c-661e-4d42-9baa-64601ca8082a" />)
 
 ### 5. Menambahkan CSS Selector (ID & Class Selector)
 Menggunakan **ID Selector (`#intro`)** untuk kotak pengantar dan **Class Selector (`.button`, `.btn-primary`)** untuk tombol interaktif.
 * **Hasil Tampilan:**
-  ![Tampilan Selesai Selector](<img width="959" height="470" alt="langkah5" src="https://github.com/user-attachments/assets/06f4d466-5f53-429c-9f04-378a03becbc3" />
+  ![Tampilan Selesai Selector](./<img width="959" height="470" alt="langkah5" src="https://github.com/user-attachments/assets/06f4d466-5f53-429c-9f04-378a03becbc3" />
 )
 
 ## Validasi CSS (W3C Validator)
 Kode CSS pada file `style_eksternal.css` telah diuji melalui W3C CSS Validation Service dan dinyatakan valid tanpa error (*No Error Found*).
 * **Bukti Validasi:**
-  ![Validasi W3C CSS](<img width="955" height="457" alt="Screenshot 2026-10-10 185728" src="https://github.com/user-attachments/assets/b3d9fcd9-5908-4c27-8b57-342cd386b422" />)
+  ![Validasi W3C CSS](./<img width="955" height="457" alt="Screenshot 2026-10-10 185728" src="https://github.com/user-attachments/assets/b3d9fcd9-5908-4c27-8b57-342cd386b422" />)
 
 ---
 
